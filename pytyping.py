@@ -42,8 +42,7 @@ def printStatus():
 
 
 def on_release(key):
-    key_name = get_key_name(key)
-    # print('Key {} released.'.format(key_name))
+    key_name = get_key_name(key)    
 
     if key_name == 'Key.esc':
         print('Exiting...')
